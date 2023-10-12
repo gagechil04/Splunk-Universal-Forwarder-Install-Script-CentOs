@@ -9,7 +9,7 @@
 <br /><br />
 
 ### You will need to make a couple modifications within the script such as:
-<br />• Pasting the IP Address of the Deployment Server you want to the Cent Os hosts to report to:
+<br />• Pasting the IP Address of the Deployment Server you want the Cent Os host(s) to report to:
 ```
 Echo the configurations into deploymentclient.conf
 echo "[target-broker:deploymentServer]" >> /opt/splunkforwarder/etc/system/local/deploymentclient.conf &&
