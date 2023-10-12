@@ -6,7 +6,7 @@
 
 <br />For the sake of simplicity and not storing passwords in plain text, echo gets it done in 2 lines :)
 
-<br /><br />You will need to make a couple modifications within the script such as:
+<br />You will need to make a couple modifications within the script such as:
 <br />Pasting the IP Address of the Deployment Server you want to the Cent Os hosts to report to:
 ```
 Echo the configurations into deploymentclient.conf
