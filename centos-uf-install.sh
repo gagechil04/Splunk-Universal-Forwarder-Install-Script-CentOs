@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Creating Splunk User and Group - Sometimes this can break the script, if thats the case comment out the below command and rerun.
+## Creating Splunk User and Group - Sometimes this can break the script, if thats the case comment out the below command, manually create the user/group, and rerun.
 sudo useradd splunk &&
 sudo groupadd splunk &&
 
