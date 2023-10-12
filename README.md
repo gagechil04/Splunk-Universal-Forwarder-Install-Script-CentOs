@@ -17,4 +17,4 @@ echo "targetUri = <DS IP ADDRESS>:8089" >> /opt/splunkforwarder/etc/system/local
 ```
 
 
-<br />• Pasting the wget link for the installer from splunk
+<br />• Pasting the wget link for the installer from splunk (Line 9)
