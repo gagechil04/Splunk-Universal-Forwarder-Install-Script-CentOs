@@ -2,15 +2,15 @@
 
 ## Downloading the Splunk Universal Forwarder Software
 cd /tmp &&
-wget -O splunkforwarder-9.1.0-1c86ca0bacc3-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.1.0/linux/splunkforwarder-9.1.0-1c86ca0bacc3-Linux-x86_64.tgz" &&
+wget -O splunkforwarder-9.1.0-1-Linux-x86_64.tgz "wget-link-provided-by-splunk" &&
 sleep 30
 
 ## Assign Splunk permissions
-chown -R splunk:splunk /tmp/splunkforwarder-9.1.0-1c86ca0bacc3-Linux-x86_64.tgz &&
+chown -R splunk:splunk /tmp/splunkforwarder-9.1.0-1-Linux-x86_64.tgz &&
 mkdir /opt/splunkforwarder &&
 
 #Extracting splunk
-sudo tar -zxvf /tmp/splunkforwarder-9.1.0-1c86ca0bacc3-Linux-x86_64.tgz -C /opt &&
+sudo tar -zxvf /tmp/splunkforwarder-9.1.0-1-Linux-x86_64.tgz -C /opt &&
 sleep 25
 
 #Assign Splunk permissions
