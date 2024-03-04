@@ -25,5 +25,5 @@ echo "targetUri = <DS IP ADDRESS>:8089" >> /opt/splunkforwarder/etc/system/local
 sudo useradd splunk
 ````
 ````
-sudo groupadd splunk &&
+sudo groupadd splunk
 ````
