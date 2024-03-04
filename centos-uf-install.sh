@@ -1,9 +1,5 @@
 #!/bin/bash
 
-## Creating Splunk User and Group - Sometimes this can break the script, if thats the case comment out the below commands, manually create the user/group, and rerun the script.
-sudo useradd splunk &&
-sudo groupadd splunk &&
-
 ## Downloading the Splunk Universal Forwarder Software
 cd /tmp &&
 wget -O splunkforwarder-9.1.0-1-Linux-x86_64.tgz "wget-link-provided-by-splunk" &&
