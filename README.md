@@ -1,4 +1,4 @@
-# Splunk-Universal-Forwarder-Install-Script-CentOs
+# Splunk Universal Forwarder Install Script CentOs
 
 ## Overview
 <br>This script will install/configure the Splunk Universal Forwarder service on a Cent OS host as well as point and essentially be a completely hands off install. Ideally, you could push this out via third party tool to cover a mass amount of UF hosts.
